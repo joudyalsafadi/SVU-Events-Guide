@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دليل فعاليات الجامعة الافتراضية السورية</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://tse4.mm.bing.net/th/id/OIP.PnLUUPzypwEJHdcEbtAVjQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <div class="logo-box">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.PnLUUPzypwEJHdcEbtAVjQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="شعار">
+        </div>
+        <h1 class="site-title">دليل فعاليات الجامعة</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav me-auto gap-1">
+          <li class="nav-item"><a class="nav-link active" href="index.html">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html">الفعاليات</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">عن الدليل</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+    <button id="darkToggle">
+  <span class="toggle-icon">🌙 وضع الليل</span>
+</button>
+  </nav>
+</header>
+
+<main class="main-page">
+
+  <p class="alert-warning">
+    <strong>أسماء الطلاب المشاركين:</strong>
+    محمد سعدالدين (mohamad_321040) &nbsp;|&nbsp;
+    خلود صابر (kholoud_238253) &nbsp;|&nbsp;
+    جودي الصفدي (Joudy_267079) &nbsp;|&nbsp;
+    جنى زين الدين (jana_282984)
+  </p>
+
+  <!-- ===== السلايدر ===== -->
+  <section class="slider-box">
+    <div id="slides" class="slides carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+
+        <!-- شريحة 1 — بطولة البرمجة -->
+        <div class="carousel-item active">
+          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&auto=format&fit=crop" alt="بطولة البرمجة">
+          <div class="carousel-caption">
+            <h5>بطولة البرمجة</h5>
+            <p class="d-none d-md-block">انضم إلينا في بطولة برمجة مثيرة ويتنافس الطلاب على الجوائز.</p>
+            <a href="event_details.html?id=1" class="btn-slide"><i class="bi bi-arrow-left-circle"></i> عرض التفاصيل</a>
+          </div>
+        </div>
+
+        <!-- شريحة 2 — دوري الجامعات الرياضي -->
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1200&auto=format&fit=crop" alt="دوري رياضي">
+          <div class="carousel-caption">
+            <h5>دوري الجامعات الرياضي</h5>
+            <p class="d-none d-md-block">انضم الى الفرق الجامعية وشارك في الدوري.</p>
+            <a href="event_details.html?id=7" class="btn-slide"><i class="bi bi-arrow-left-circle"></i> عرض التفاصيل</a>
+          </div>
+        </div>
+
+        <!-- شريحة 3 — المسابقة البرمجية -->
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&auto=format&fit=crop" alt="مسابقة برمجية">
+          <div class="carousel-caption">
+            <h5>المسابقة البرمجية السنوية</h5>
+            <p class="d-none d-md-block">شارك في المسابقة البرمجية حيث يتعاون الطلاب لحل مشكلات حقيقية.</p>
+            <a href="event_details.html?id=5" class="btn-slide"><i class="bi bi-arrow-left-circle"></i> عرض التفاصيل</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- أسهم التنقل -->
+      <button class="arrow prev carousel-control-prev" type="button" data-bs-target="#slides" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="arrow next carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+      <!-- النقاط -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#slides" data-bs-slide-to="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== التصنيفات ===== -->
+  <section class="category-box">
+    <div class="container">
+      <h2 class="section-title">تصفّح حسب التصنيف</h2>
+      <div class="d-flex flex-wrap gap-2" id="catButtons">
+        <button class="active-btn"   data-cat="all">                     الكل</button>
+        <button class="cat-sport"    data-cat="sport">               رياضة</button>
+        <button class="cat-culture"  data-cat="culture">              ثقافة</button>
+        <button class="cat-art"      data-cat="art">             فن</button>
+        <button class="cat-music"    data-cat="music">     موسيقى</button>
+        <button class="cat-program"  data-cat="program">          برمجة</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== أحدث الفعاليات ===== -->
+  <section class="gallery">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="section-title mb-0">أحدث الفعاليات</h2>
+        <a href="events.html" class="btn btn-outline-primary btn-sm fw-bold">عرض الكل <i class="bi bi-arrow-left"></i></a>
+      </div>
+
+      <div class="row g-4" id="eventsGrid">
+
+        <!-- 1 — بطولة البرمجة | برمجة -->
+        <div class="col-12 col-sm-6 col-lg-3 event-col" data-cat="program">
+          <div class="item">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&auto=format&fit=crop" alt="بطولة البرمجة">
+            <div class="item-body">
+              <div class="item-meta">
+                <span class="tag tag-culture">برمجة</span>
+              </div>
+              <h5>بطولة البرمجة</h5>
+              <p>انضم في بطولة برمجة مثيرة ويتنافس الطلاب على الجوائز.</p>
+              <div class="item-info">
+                <span><i class="bi bi-calendar3"></i> 20/12/2026</span>
+                <span><i class="bi bi-geo-alt"></i> الجامعة الافتراضية السورية</span>
+              </div>
+              <a href="event_details.html?id=1" class="btn-details">التفاصيل <i class="bi bi-arrow-left-short"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 — أفضل صورة | فن -->
+        <div class="col-12 col-sm-6 col-lg-3 event-col" data-cat="art">
+          <div class="item">
+            <img src="https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?w=600&auto=format&fit=crop" alt="تصوير">
+            <div class="item-body">
+              <div class="item-meta">
+                <span class="tag tag-art">فن</span>
+              </div>
+              <h5>أفضل صورة في الجامعة</h5>
+              <p>التقط أفضل صورة في مدينتك وشاركها على موقع الجامعة.</p>
+              <div class="item-info">
+                <span><i class="bi bi-calendar3"></i> 15/12/2026</span>
+                <span><i class="bi bi-geo-alt"></i> الجامعة الافتراضية السورية</span>
+              </div>
+              <a href="event_details.html?id=2" class="btn-details">التفاصيل <i class="bi bi-arrow-left-short"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 — دوري الجامعات الرياضي | رياضة -->
+        <div class="col-12 col-sm-6 col-lg-3 event-col" data-cat="sport">
+          <div class="item">
+            <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&auto=format&fit=crop" alt="دوري رياضي">
+            <div class="item-body">
+              <div class="item-meta">
+                <span class="tag tag-sport">رياضة</span>
+              </div>
+              <h5>دوري الجامعات الرياضي</h5>
+              <p>شارك في دوري الجامعات السورية حيث تلتقي فرق من جميع المحافظات.</p>
+              <div class="item-info">
+                <span><i class="bi bi-calendar3"></i> 13/12/2026</span>
+                <span><i class="bi bi-geo-alt"></i> ملعب الفيحاء</span>
+              </div>
+              <a href="event_details.html?id=7" class="btn-details">التفاصيل <i class="bi bi-arrow-left-short"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 — يوم الثقافة | ثقافة -->
+        <div class="col-12 col-sm-6 col-lg-3 event-col" data-cat="culture">
+          <div class="item">
+            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&auto=format&fit=crop" alt="ثقافة">
+            <div class="item-body">
+              <div class="item-meta">
+                <span class="tag tag-culture">ثقافة</span>
+              </div>
+              <h5>يوم الثقافة والمعرفة</h5>
+              <p>يلتقي فيه جميع طلاب الجامعة مع كادرها للتعريف بالجامعة وأقسامها.</p>
+              <div class="item-info">
+                <span><i class="bi bi-calendar3"></i> 14/12/2026</span>
+                <span><i class="bi bi-geo-alt"></i> الجامعة الافتراضية السورية</span>
+              </div>
+              <a href="event_details.html?id=4" class="btn-details">التفاصيل <i class="bi bi-arrow-left-short"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 — المسابقة البرمجية | برمجة -->
+        <div class="col-12 col-sm-6 col-lg-3 event-col" data-cat="program">
+          <div class="item">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&auto=format&fit=crop" alt="مسابقة برمجية">
+            <div class="item-body">
+              <div class="item-meta">
+                <span class="tag tag-culture">برمجة</span>
+              </div>
+              <h5>المسابقة البرمجية</h5>
+              <p>شارك في المسابقة البرمجية لحل مشكلات حقيقية وإيجاد حلول مبتكرة.</p>
+              <div class="item-info">
+                <span><i class="bi bi-calendar3"></i> 18/12/2026</span>
+                <span><i class="bi bi-geo-alt"></i> الجامعة الافتراضية السورية</span>
+              </div>
+              <a href="event_details.html?id=5" class="btn-details">التفاصيل <i class="bi bi-arrow-left-short"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 — ورشة التقنيات | برمجة -->
+        <div class="col-12 col-sm-6 col-lg-3 event-col" data-cat="program">
+          <div class="item">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&auto=format&fit=crop" alt="ورشة تقنية">
+            <div class="item-body">
+              <div class="item-meta">
+                <span class="tag tag-culture">برمجة</span>
+              </div>
+              <h5>ورشة التقنيات الحديثة</h5>
+              <p>طور مهاراتك في التقنيات الحديثة مع خبراء متخصصين.</p>
+              <div class="item-info">
+                <span><i class="bi bi-calendar3"></i> 16/12/2026</span>
+                <span><i class="bi bi-geo-alt"></i> الجامعة الافتراضية السورية</span>
+              </div>
+              <a href="event_details.html?id=6" class="btn-details">التفاصيل <i class="bi bi-arrow-left-short"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /row -->
+
+      <div id="noResults" class="alert alert-warning text-center d-none mt-3" role="alert">
+        <i class="bi bi-search"></i> لا توجد فعاليات في هذا التصنيف.
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+    <p class="mb-0">© 2026 دليل فعاليات الجامعة الافتراضية السورية</p>
+    <div class="footer-links">
+      <a href="#">فيسبوك</a>
+      <a href="#">تويتر</a>
+      <a href="#">إنستغرام</a>
+    </div>
+  </div>
+</footer>
+
+<!-- زر العودة للأعلى -->
+<button id="scrollTop" title="العودة للأعلى"><i class="bi bi-arrow-up"></i></button>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  /* ===== فلترة التصنيفات ===== */
+  const catBtns   = document.querySelectorAll('#catButtons button');
+  const eventCols = document.querySelectorAll('#eventsGrid .event-col');
+  const noResults = document.getElementById('noResults');
+
+  catBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      catBtns.forEach(b => b.classList.remove('active-btn'));
+      btn.classList.add('active-btn');
+      const selected = btn.dataset.cat;
+      let visible = 0;
+      eventCols.forEach(col => {
+        if (selected === 'all' || col.dataset.cat === selected) {
+          col.classList.remove('hidden'); visible++;
+        } else {
+          col.classList.add('hidden');
+        }
+      });
+      noResults.classList.toggle('d-none', visible > 0);
+    });
+  });
+
+  darkBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    const isDark = document.body.classList.contains('dark-mode');
+    darkIcon.className = isDark ? 'bi bi-sun-fill' : 'bi bi-moon-fill';
+    localStorage.setItem('darkMode', isDark ? 'on' : 'off');
+  });
+</script>
+
+<script src="assets/js/java.js"></script>
+</body>
+</html>

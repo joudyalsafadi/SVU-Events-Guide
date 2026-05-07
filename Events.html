@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الفعاليات — دليل فعاليات الجامعة الافتراضية السورية</title>
+
+  <!-- Bootstrap 5 RTL -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts Arabic -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="https://tse4.mm.bing.net/th/id/OIP.PnLUUPzypwEJHdcEbtAVjQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+ 
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <div class="logo-box">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.PnLUUPzypwEJHdcEbtAVjQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="شعار">
+        </div>
+        <h1 class="site-title">دليل فعاليات الجامعة</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <nav class="menu navbar-nav me-auto gap-1">
+          <a class="nav-link" href="index.html">الرئيسية</a>
+          <a class="nav-link active" href="events.html">الفعاليات</a>
+          <a class="nav-link" href="about.html">عن الدليل</a>
+          <a class="nav-link" href="contact.html">تواصل معنا</a>
+        </nav>
+        <button id="darkToggle">
+  <span class="toggle-icon">🌙</span> وضع الليل
+</button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- ===== MAIN ===== -->
+<main class="page">
+  <div class="container">
+
+    <h1 class="main-title">جميع الفعاليات</h1>
+
+  
+    <div class="tools">
+      <input type="text" id="searchInput" placeholder="ابحث عن فعالية..." class="search">
+
+      <div class="filters">
+        <select id="categoryFilter" class="filter">
+          <option value="">كل التصنيفات</option>
+          <option value="culture">ثقافة</option>
+          <option value="sport">رياضة</option>
+          <option value="music">موسيقا</option>
+          <option value="program">برمجة</option>
+          <option value="art">فن</option>
+        
+        </select>
+
+        <select id="dateFilter" class="filter">
+          <option value="">كل التواريخ</option>
+          <option value="13/12/2026">13/12/2026</option>
+          <option value="14/12/2026">14/12/2026</option>
+          <option value="15/12/2026">15/12/2026</option>
+          <option value="16/12/2026">16/12/2026</option>
+          <option value="18/12/2026">18/12/2026</option>
+          <option value="20/12/2026">20/12/2026</option>
+        </select>
+
+        <select id="placeFilter" class="filter">
+          <option value="">كل المواقع</option>
+          <option value="Syrian Virtual University">الجامعة الافتراضية السورية</option>
+        </select>
+      </div>
+    </div>
+
+    
+    <div class="cards row g-4" id="cardsGrid">
+
+     
+      <div class="col-12 col-sm-6 col-lg-4 card-col"
+           data-title="بطولة البرمجة"
+           data-category="program"
+           data-date="20/12/2026"
+           data-place="Syrian Virtual University"
+           data-description="انضم إلينا في بطولة برمجة مثيرة يعرض فيها الطلاب مهاراتهم في البرمجة ويتنافسون على الجوائز">
+        <div class="card"
+             data-event-id="1"
+             data-event-title="بطولة البرمجة"
+             data-event-date="20/12/2026"
+             data-event-location="Syrian Virtual University"
+             data-event-category="Tech"
+             data-event-image="https://i.pinimg.com/1200x/b0/43/b5/b043b5d33be34b04589d8851840e5733.jpg"
+             data-event-description="انضم إلينا في بطولة برمجة مثيرة يعرض فيها الطلاب مهاراتهم في البرمجة ويتنافسون على الجوائز">
+          <img src="https://i.pinimg.com/1200x/b0/43/b5/b043b5d33be34b04589d8851840e5733.jpg" alt="بطولة البرمجة">
+          <h2>بطولة البرمجة</h2>
+          <p class="date"><i class="bi bi-calendar3"></i> التاريخ: 20/12/2026</p>
+          <p class="location"><i class="bi bi-geo-alt"></i> المكان: الجامعة الافتراضية السورية</p>
+          <p>انضم إلينا في بطولة برمجة مثيرة يعرض فيها الطلاب مهاراتهم في البرمجة ويتنافسون على الجوائز.</p>
+          <div class="card-footer">
+          
+            <a href="event_details.html?id=1" class="card-button">التفاصيل</a>
+          </div>
+        </div>
+      </div>
+ <div class="col-12 col-sm-6 col-lg-4 card-col"
+           data-title="دوري الجامعات الرياضي"
+           data-category="sport"
+           data-date="20/12/2026"
+           data-place="صالة الفيحاء"
+           data-description="انضم إلينا في الدوري الجامعات حيث يلتقي الطلاب من جميع الجامعات">
+        <div class="card"
+             data-event-id="7"
+             data-event-title="دوري الجامعات الرياضي"
+             data-event-date="20/12/2026"
+             data-event-location="Syrian Virtual University"
+             data-event-category="sport"
+             data-event-image="https://i.imgur.com/aB9Dyll.jpeg"
+             data-event-description="انضم إلينا في الدوري الجامعات حيث يلتقي الطلاب من جميع الجامعات">
+        <img src="https://i.imgur.com/aB9Dyll.jpeg" alt="دوري الجامعات">
+
+          <h2> دوري الجامعات الرياضي</h2>
+          <p class="date"><i class="bi bi-calendar3"></i> التاريخ: 20/12/2026</p>
+          <p class="location"><i class="bi bi-geo-alt"></i> المكان:ملعب الفيحاء</p>
+          <p>انضم إلينا في الدوري الجامعات حيث يلتقي الطلاب من جميع الجامعات"</p>
+          <div class="card-footer">
+           
+            <a href="event_details.html?id=7" class="card-button">التفاصيل</a>
+          </div>
+        </div>
+      </div>
+   
+      <div class="col-12 col-sm-6 col-lg-4 card-col"
+           data-title="أفضل صورة في الجامعة"
+           data-category="art"
+           data-date="15/12/2026"
+           data-place="Syrian Virtual University"
+           data-description="ألتقط أفضل صورة في مدينتك وسيتم اختيار أفضل صورة من قبل لجنة مختصة">
+                 <div class="card"
+             data-event-id="2"
+             data-event-title="أفضل صورة في الجامعة"
+             data-event-date="15/12/2026"
+             data-event-location="Syrian Virtual University"
+             data-event-category="art"
+             data-event-image="https://images.pexels.com/photos/29399503/pexels-photo-29399503.jpeg"
+             data-event-description="ألتقط أفضل صورة في مدينتك وسيتم اختيار أفضل صورة من قبل لجنة مختصة">
+          <img src="https://images.pexels.com/photos/29399503/pexels-photo-29399503.jpeg" alt="صورة كاميرا ">
+          <h2>أفضل صورة في الجامعة</h2>
+          <p class="date"><i class="bi bi-calendar3"></i> التاريخ: 15/12/2026</p>
+          <p class="location"><i class="bi bi-geo-alt"></i> المكان: الجامعة الافتراضية السورية</p>
+          <p>ألتقط أفضل صورة في مدينتك وسيتم اختيار أفضل صورة من قبل لجنة مختصة</p>
+          <div class="card-footer">
+            <a href="event_details.html?id=2" class="card-button">التفاصيل</a>
+          </div>
+        </div>
+      </div>
+
+     
+   
+      <div class="col-12 col-sm-6 col-lg-4 card-col"
+           data-title=" يوم الثقافةو المعرفة"
+           data-category="culture"
+           data-date="14/12/2026"
+           data-place="Syrian Virtual University"
+           data-description= "تواصل مع الكادر التدريسي والادارة وتعرف على الجامعة، وابنِ علاقات مهنية مع الكادر يمكن أن تشكّل مسيرتك المهنية المستقبلية.",
+    >
+        <div class="card"
+             data-event-id="4"
+             data-event-title="يوم الثقافة والمعرفة"
+             data-event-date="14/12/2026"
+             data-event-location="Syrian Virtual University"
+             data-event-category="culture"
+             data-event-image="https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg",
+
+             data-event-description="تواصل مع الكادر التدريسي والادارة وتعرف على الجامعة، وابنِ علاقات مهنية مع الكادر يمكن أن تشكّل مسيرتك المهنية المستقبلية.">
+          <img src="https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg" alt="culture ">
+          <h2> يوم الثقافة والمعرفة</h2>
+          <p class="date"><i class="bi bi-calendar3"></i> التاريخ: 14/12/2026</p>
+          <p class="location"><i class="bi bi-geo-alt"></i> المكان: الجامعة الافتراضية السورية</p>
+          <p> "تواصل مع الكادر التدريسي والادارة وتعرف على الجامعة، وابنِ علاقات مهنية مع الكادر يمكن أن تشكّل مسيرتك المهنية المستقبلية.",
+    </p>
+          <div class="card-footer">
+          
+            <a href="event_details.html?id=4" class="card-button">التفاصيل</a>
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="col-12 col-sm-6 col-lg-4 card-col"
+           data-title="المسابقة البرمجية"
+           data-category="program"
+           data-date="18/12/2026"
+           data-place="Syrian Virtual University"
+           data-description="شارك في المسابقة البرمجة يتعاون فيه الطلاب لحل مشكلات حقيقية وإيجاد حلول مبتكرة">
+        <div class="card"
+             data-event-id="5"
+             data-event-title=" المسابقة البرمجية"
+             data-event-date="18/12/2026"
+             data-event-location="Syrian Virtual University"
+             data-event-category="program"
+             data-event-image="https://images.unsplash.com/photo-1517048676732-d65bc937f952"
+             data-event-description="شارك في المسابقة البرمجة يتعاون فيه الطلاب لحل مشكلات حقيقية وإيجاد حلول مبتكرة">
+     
+          <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952" alt=" افتراضي">
+          <h2> المسابقة البرمجية</h2>
+          <p class="date"><i class="bi bi-calendar3"></i> التاريخ: 18/12/2026</p>
+          <p class="location"><i class="bi bi-geo-alt"></i> المكان: الجامعة الافتراضية السورية</p>
+          <p>شارك في المسابقة البرمجة يتعاون فيه الطلاب لحل مشكلات حقيقية وإيجاد حلول مبتكرة
+     </p>
+          <div class="card-footer">
+           
+            <a href="event_details.html?id=5" class="card-button">التفاصيل</a>
+          </div>
+        </div>
+      </div>
+
+      <!--  6 — مهارات -->
+      <div class="col-12 col-sm-6 col-lg-4 card-col"
+           data-title="ورشة التقنيات الحديثة"
+           data-category="program"
+           data-date="16/12/2026"
+           data-place="Syrian Virtual University"
+           data-description="طور مهاراتك في التقنيات الحديثة من خلال جلسات تطبيقية يقودها خبراء متخصصون">
+        <div class="card"
+             data-event-id="6"
+             data-event-title="ورشة التقنيات الحديثة"
+             data-event-date="16/12/2026"
+             data-event-location="Syrian Virtual University"
+             data-event-category="program"
+             data-event-image="https://i.pinimg.com/1200x/50/06/01/5006018417b617f706c72e707321c0b2.jpg"
+             data-event-description="طور مهاراتك في التقنيات الحديثة من خلال جلسات تطبيقية يقودها خبراء متخصصون">
+          <img src="https://i.pinimg.com/1200x/50/06/01/5006018417b617f706c72e707321c0b2.jpg" alt="ورشة تقنية">
+          <h2>ورشة التقنيات الحديثة</h2>
+          <p class="date"><i class="bi bi-calendar3"></i> التاريخ: 16/12/2026</p>
+          <p class="location"><i class="bi bi-geo-alt"></i> المكان: الجامعة الافتراضية السورية</p>
+          <p>طور مهاراتك في التقنيات الحديثة من خلال جلسات تطبيقية يقودها خبراء متخصصون.</p>
+          <div class="card-footer">
+            
+            <a href="event_details.html?id=6" class="card-button">التفاصيل</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /cards row -->
+
+    <!-- رسالة لا توجد نتائج — Bootstrap Alert -->
+    <div id="noResults" class="alert alert-warning text-center mt-4 d-none" role="alert">
+      <i class="bi bi-search fs-4 d-block mb-1"></i>
+      لا توجد فعاليات تطابق بحثك. جرّب كلمة أخرى أو تصنيفاً مختلفاً.
+    </div>
+
+  </div>
+</main>
+
+<!--  FOOTER  -->
+<footer class="footer">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+    <p>© 2026 دليل فعاليات الجامعة الافتراضية السورية</p>
+    <div class="footer-links">
+      <a href="#">فيسبوك</a>
+      <a href="#">تويتر</a>
+      <a href="#">إنستغرام</a>
+    </div>
+  </div>
+</footer>
+
+<!-- زر العودة للأعلى -->
+<button id="scrollTop" title="العودة للأعلى"><i class="bi bi-arrow-up"></i></button>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  
+  const searchInput    = document.getElementById('searchInput');
+  const categoryFilter = document.getElementById('categoryFilter');
+  const dateFilter     = document.getElementById('dateFilter');
+  const placeFilter    = document.getElementById('placeFilter');
+  const cardCols       = document.querySelectorAll('.card-col');
+  const noResults      = document.getElementById('noResults');
+
+  function filterCards() {
+    const searchValue   = searchInput.value.toLowerCase().trim();
+    const categoryValue = categoryFilter.value;
+    const dateValue     = dateFilter.value;
+    const placeValue    = placeFilter.value;
+
+    let visible = 0;
+
+    cardCols.forEach(col => {
+      const title       = col.dataset.title.toLowerCase();
+      const description = col.dataset.description.toLowerCase();
+      const category    = col.dataset.category;
+      const date        = col.dataset.date;
+      const place       = col.dataset.place;
+
+      let show = true;
+
+    
+      if (searchValue && !title.includes(searchValue) && !description.includes(searchValue)) {
+        show = false;
+      }
+      // فلتر التصنيف
+      if (categoryValue && category !== categoryValue) show = false;
+      // فلتر التاريخ
+      if (dateValue && date !== dateValue) show = false;
+      // فلتر المكان
+      if (placeValue && !place.includes(placeValue)) show = false;
+
+      if (show) {
+        col.style.display = '';
+        visible++;
+      } else {
+        col.style.display = 'none';
+      }
+    });
+
+    // إظهار رسالة "لا توجد نتائج"  
+    noResults.classList.toggle('d-none', visible > 0);
+  }
+
+  // ربط الفلاتر بالأحداث
+  searchInput.addEventListener('input',  filterCards);
+  categoryFilter.addEventListener('change', filterCards);
+  dateFilter.addEventListener('change',     filterCards);
+  placeFilter.addEventListener('change',    filterCards);
+
+  /*  زر العودة للأعلى  */
+  const scrollBtn = document.getElementById('scrollTop');
+  window.addEventListener('scroll', () => {
+    scrollBtn.style.display = window.scrollY > 300 ? 'flex' : 'none';
+  });
+  scrollBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
+<script src="assets/js/java.js"></script>
+</body>
+</html>
